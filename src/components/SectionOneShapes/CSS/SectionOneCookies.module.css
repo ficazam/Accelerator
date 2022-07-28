@@ -1,0 +1,86 @@
+.cookie_bar {
+  position: sticky;
+  top: 100%;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 8px 24px 8px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+}
+
+.cookie_bar_hidden {
+  display: none;
+}
+
+.inside {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  padding: 0 2.5%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  padding: 0;
+}
+
+.button {
+  margin: 0 1%;
+  padding: 5% 7.5%;
+  border: solid 1px #fff;
+  border-radius: 5px;
+  transition: 0.5s ease;
+  color: #fff;
+  background-color: #206ecf;
+  cursor: pointer;
+}
+
+.button_alt {
+  background-color: #fff;
+  color: #206ecf;
+  border: 1px solid #206ecf;
+}
+
+.text {
+  text-align: start;
+}
+
+.small {
+  font-size: 0.75rem;
+}
+
+/* -- PHONE AND TABLET SCREENS -- */
+
+@media screen and (max-width: 800px) {
+  .cookie_bar {
+    height: 20%;
+  }
+
+  .inside {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .actions {
+    width: 100%;
+  }
+
+  .button {
+    padding: 2.5% 7.5%;
+  }
+
+  .button_alt {
+    background-color: #fff;
+    color: #206ecf;
+    border: 1px solid #206ecf;
+  }
+
+  .text {
+    text-align: center;
+  }
+}

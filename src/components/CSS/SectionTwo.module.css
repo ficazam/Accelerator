@@ -23,7 +23,11 @@
     color: #6B788A;
   }
   
-  @media screen and (max-width: 600px) {
+
+  /* -- PHONE AND TABLET -- */
+
+  
+  @media screen and (max-width: 800px) {
     .section_rules {
       padding: 0 2.5%;
     }

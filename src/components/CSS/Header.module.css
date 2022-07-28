@@ -47,6 +47,10 @@
   color: #206ecf;
 }
 
+
+/* -- PHONE AND TABLET -- */
+
+
 @media screen and (max-width: 800px) {
   .logo {
     width: 50%;

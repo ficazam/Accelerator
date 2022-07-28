@@ -1,9 +1,9 @@
 .oval {
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 40%;
-    width: 100%;
-    height: 37.5%;
+    width: 125%;
+    height: 57.5%;
     background: transparent;
     border: 3px solid #ffffff2b;
     border-radius: 50%;
@@ -85,12 +85,15 @@
     transform: rotate(-168.32deg);
   }
 
+  /* -- PHONE AND TABLET -- */
+
+
   @media screen and (max-width: 800px) {
     .oval {
-      top: 45%;
-      left: 10%;  
-      width: 175%;
-      height: 17.5%;
+      top: 50%;
+      left: -5%;  
+      width: 235%;
+      height: 25%;
     }
   
   }

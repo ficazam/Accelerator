@@ -24,7 +24,7 @@ export const FooterMenuSection = () => (
           <h3 className={styles.section_title}>
             {menu.title}
           </h3>
-          <div className={styles.separator} />
+          <div className={`${styles.separator} ${styles.img_separator}`} />
           <div className={styles.menu_pics}>
             {menu.values.map((val) => (
                 <img key={Math.random() * 10} src={val} alt='follow' className={styles.images} />

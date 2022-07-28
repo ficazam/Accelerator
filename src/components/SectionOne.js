@@ -4,6 +4,7 @@ import * as styles from "./CSS/SectionOne.module.css";
 import { SectionOneOvals } from "./SectionOneShapes/SectionOneOvals";
 import { SectionOneRectangles } from "./SectionOneShapes/SectionOneRectangles";
 import { SectionOneTriangle } from "./SectionOneShapes/SectionOneTriangle";
+import { SectionOneCookies } from "./SectionOneShapes/SectionOneCookies";
 
 export const SectionOne = () => (
   <section className={styles.section_rules}>
@@ -22,5 +23,6 @@ export const SectionOne = () => (
     <SectionOneOvals />
     <SectionOneRectangles />
     <SectionOneTriangle />
+    <SectionOneCookies />
   </section>
 );

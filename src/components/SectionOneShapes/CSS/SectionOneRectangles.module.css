@@ -43,6 +43,9 @@
     height: 10%;
 }
 
+/* -- PHONE AND TABLET -- */
+
+
 @media screen and (max-width: 800px) {
     .rectangle_one {
         top: 62.5%;

@@ -26,6 +26,7 @@
 
 .menu_items {
   margin-top: 5%;
+  cursor: pointer;
 }
 
 .images {
@@ -33,10 +34,15 @@
   border-radius: 5px;
   padding: 2.5%;
   width: 5%;
+  cursor: pointer;
+
 }
+
+/* -- PHONE AND TABLET -- */
 
 @media screen and (max-width: 600px) {
   .section_rules {
+    flex-direction: row;
     flex-wrap: wrap;
     font-size: 0.75rem;
     flex: 0.5;
@@ -44,18 +50,25 @@
   }
 
   .menu_section {
-    min-width: 90%;
+    margin-top: 5%;
+    min-width: 39%;
   }
 
   .menu, .menu_pics {
-    width: 50%;
+    width: 100%;
+    min-height: auto;
+    flex-grow: 1;
+    font-size: 0.75rem;
+    color: #B6C0CD;
   }
 
   .menu_pics {
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    margin-top: 2.5%;
+    width: 50%;
+    padding-left: 2.5%;
   }
 
   .separator {
@@ -65,10 +78,18 @@
     width: 60%;
     margin-left: -25%;
   }
+
+  .img_separator {
+    margin-left: 7.5%;
+  }
+
+  .section_title {
+    padding-left: 7.5%;
+  }
   
 
   .images {
     margin: 0 2.5%;
-    width: 10%;
+    width: 5%;
   }
 }

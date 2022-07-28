@@ -87,7 +87,9 @@
   margin: 2.5%;
 }
 
-@media screen and (max-width: 600px) {
+/* -- PHONE AND TABLET -- */
+
+@media screen and (max-width: 800px) {
   .title {
     margin: 2.5% 2.5%;
     font-size: 1.75rem;
