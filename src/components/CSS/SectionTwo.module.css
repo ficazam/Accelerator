@@ -1,0 +1,38 @@
+.section_rules {
+    background: linear-gradient(178.02deg, #FFFFFF 0%, #FFFFFF 99.96%);
+    height: 65vh;
+    width: 100vw;
+    padding: 0 10%;
+  }
+  
+  .text {
+    margin-top: 30%;
+  }
+
+  .title {
+    color: #206ECF;
+    font-size: 1.5rem;
+  }
+
+  .large {
+    font-size: 3em;
+  }
+
+  .para {
+    font-size: 1rem;
+    color: #6B788A;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .section_rules {
+      padding: 0 2.5%;
+    }
+
+    .text {
+      margin-top: 80%;
+    }
+  
+    .title {
+      font-size: 1rem;
+    }
+  }

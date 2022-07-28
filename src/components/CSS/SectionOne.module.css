@@ -1,0 +1,119 @@
+.section_rules {
+  background: linear-gradient(110.96deg, #206ecf 0.72%, #71b0ff 100%);
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.description {
+  margin-top: 10vh;
+  color: #fff;
+  padding: 0 20%;
+}
+
+.cta {
+  font-size: 1.5rem;
+}
+
+.title {
+  font-size: 3.5rem;
+  margin-top: 1%;
+  padding: 0 15%;
+
+}
+
+.para {
+  font-size: 1.2rem;
+  margin-top: 1%;
+  padding: 0 15%;
+}
+
+.button {
+  margin: 1% 0;
+  padding: 1% 2.5%;
+  border: solid 1px #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.button_alt {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  color: #fff;
+  background-color: #206ecf;
+  z-index: 50;
+}
+
+
+/* -- PHONE SCREENS -- */
+
+@media screen and (max-width: 600px) {
+  .description {
+    margin-top: 15vh;
+    padding: 0 10%;
+  }
+  
+  .cta {
+    font-size: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    padding: 0 1%;
+  
+  }
+  
+  .para {
+    font-size: 0.75rem;
+    padding: 0 7.5%;
+  }
+  
+  .button {
+    margin: 5% 2.5%;
+    padding: 2.5% 15%;
+  }
+  
+  .button_alt {
+    padding: 2.5% 10%;
+    top: 75%;
+    left: 27.5%;
+  }
+}
+
+
+/* -- TABLET SCREENS -- */
+
+@media screen and (max-width: 800px) {
+  .description {
+    margin-top: 15vh;
+    padding: 0 10%;
+  }
+  
+  .cta {
+    font-size: 1.5rem;
+  }
+  
+  .title {
+    font-size: 2.2rem;
+    padding: 0 15%;
+  
+  }
+  
+  .para {
+    font-size: 1rem;
+    padding: 0 7.5%;
+  }
+  
+  .button {
+    margin: 5% 2.5%;
+    padding: 2.5% 15%;
+  }
+  
+  .button_alt {
+    padding: 2.5% 10%;
+    top: 75%;
+    left: 32.5%;
+  }
+}

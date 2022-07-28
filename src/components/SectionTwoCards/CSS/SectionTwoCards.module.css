@@ -1,0 +1,76 @@
+.card {
+    height: 15%;
+    width: 10%;
+    border-radius: 20px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 18%);
+    position: absolute;
+    display: flex;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_image {
+    width: 50%;
+}
+
+.card_one {
+    top: 120%;
+    left: 10%;
+}
+
+.card_two {
+    top: 115%;
+    left: 27.5%;
+}
+
+.card_three {
+    top: 110%;
+    left: 45%;
+
+}
+
+.card_four {
+    top: 115%;
+    left: 62.5%;
+
+}
+
+.card_five {
+    top: 120%;
+    left: 80%;
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        height: 7.5%;
+        width: 15%;
+    }
+
+    .card_one {
+        top: 120%;
+        left: 5%;
+    }
+    
+    .card_two {
+        top: 115%;
+        left: 22.5%;
+    }
+    
+    .card_three {
+        top: 110%;
+        left: 45%;
+    
+    }
+    
+    .card_four {
+        top: 115%;
+        left: 67.5%;
+    
+    }
+    
+    .card_five {
+        top: 120%;
+        left: 85%;
+    }
+}
